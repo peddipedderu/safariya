@@ -1,7 +1,7 @@
-# Safariya - Africa Explorer
-# fly.io configuration
+# 🌍 Safariya: Africa Explorer
+# Fly.io deployment configuration
 
-app = "safariya-africa-explorer"
+app = "safariya-game"
 primary_region = "iad"
 kill_signal = "SIGINT"
 kill_timeout = "5s"
@@ -9,33 +9,24 @@ kill_timeout = "5s"
 [build]
 
 [env]
-  PORT = "8080"
+  PORT = "8095"
   NODE_ENV = "production"
 
 [http_service]
-  internal_port = 8080
+  internal_port = 8095
   force_https = true
-  auto_stop_machines = false
+  auto_stop_machines = 'stop'
   auto_start_machines = true
   min_machines_running = 1
   processes = ["app"]
-
-  [http_service.concurrency]
-    type = "connections"
-    hard_limit = 100
-    soft_limit = 80
 
 [[vm]]
   size = "shared-cpu-1x"
   memory = "512mb"
 
-[mounts]
-  source = "safariya_data"
-  destination = "/app/server/data"
-
 [[services]]
   protocol = "tcp"
-  internal_port = 8080
+  internal_port = 8095
   processes = ["app"]
 
   [[services.ports]]
@@ -46,11 +37,6 @@ kill_timeout = "5s"
   [[services.ports]]
     port = 443
     handlers = ["tls", "http"]
-
-  [services.concurrency]
-    type = "connections"
-    hard_limit = 100
-    soft_limit = 80
 
   [[services.http_checks]]
     interval = "30s"

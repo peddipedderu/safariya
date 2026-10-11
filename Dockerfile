@@ -30,7 +30,7 @@ RUN mkdir -p ./server/data
 
 # Environment
 ENV NODE_ENV=production
-ENV PORT=8080
+ENV PORT=8095
 
 # Non-root user for security
 RUN addgroup -g 1001 -S nodejs
@@ -38,10 +38,10 @@ RUN adduser -S safariya -u 1001
 RUN chown -R safariya:nodejs /app
 USER safariya
 
-EXPOSE 8080
+EXPOSE 8095
 
 HEALTHCHECK --interval=30s --timeout=10s --start-period=30s --retries=3 \
-  CMD wget -q -O- http://localhost:8080/api/health || exit 1
+  CMD wget -q -O- http://localhost:8095/api/health || exit 1
 
 ENTRYPOINT ["dumb-init", "--"]
 CMD ["node", "server/index.js"]

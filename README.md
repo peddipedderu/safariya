@@ -2,7 +2,7 @@
 
 [![Hive Blockchain](https://img.shields.io/badge/Hive-E31337?style=for-the-badge&logo=hive&logoColor=white)](https://hive.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Status: Live](https://img.shields.io/badge/Status-Live%20DApp-success?style=for-the-badge)](https://safariya-africa-explorer.fly.dev)
+[![Status: Live](https://img.shields.io/badge/Status-Live%20DApp-success?style=for-the-badge)](https://safariya-game.fly.dev)
 [![Ecosystem: Hive](https://img.shields.io/badge/Hive.io%20Eco-Listed-orange?style=for-the-badge)](https://hive.io/eco/)
 
 > **Safariya: Africa Explorer** is a cutting-edge, Web3 trading card & territory adventure game built on the **Hive blockchain**, inspired by Splinterlands. Journey across 5 majestic African regions, collect 8 legendary African Explorer NFT cards, conquer 10 historic territories, and earn real **HIVE** cryptocurrency rewards with **zero gas fees** and **3-second block finality**.
@@ -16,7 +16,7 @@
 | **Final Project Name** | **Safariya: Africa Explorer** |
 | **Tagline** | The Premier African Adventure Trading Card Game on Hive |
 | **Description** | Web3 trading card & territory adventure game powered by Hive blockchain. Explore Africa, collect legendary warrior cards, battle for territories, and earn HIVE rewards. |
-| **Live Project URL** | [https://safariya-africa-explorer.fly.dev](https://safariya-africa-explorer.fly.dev) |
+| **Live Project URL** | [https://safariya-game.fly.dev](https://safariya-game.fly.dev) |
 | **Repository URL** | [https://github.com/peddipedderu/safariya](https://github.com/peddipedderu/safariya) |
 | **Announcement Post URL** | [https://hive.blog/hive-133987/@peddipedderu/introducing-safariya-africa-explorer-a-cutting-edge-hive-blockchain-game](https://hive.blog/hive-133987/@peddipedderu/introducing-safariya-africa-explorer-a-cutting-edge-hive-blockchain-game) |
 | **Contact URL** | [https://hive.blog/@peddipedderu](https://hive.blog/@peddipedderu) / [https://github.com/peddipedderu](https://github.com/peddipedderu) |
